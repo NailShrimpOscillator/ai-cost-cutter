@@ -9,7 +9,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Version](https://img.shields.io/badge/Version-2.4.0-brightgreen?style=for-the-badge)](https://github.com/NailShrimpOscillator/ai-cost-cutter/releases)
-[![Downloads](https://img.shields.io/github/downloads/NailShrimpOscillator/ai-cost-cutter/total?style=for-the-badge&color=ff6b35)](https://github.com/NailShrimpOscillator/ai-cost-cutter/releases)
 [![Stars](https://img.shields.io/github/stars/NailShrimpOscillator/ai-cost-cutter?style=for-the-badge&color=yellow)](https://github.com/NailShrimpOscillator/ai-cost-cutter)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
