@@ -105,19 +105,6 @@ AI Cost Cutter installs a lightweight optimization layer directly into your AI a
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-<img src="https://i.imgur.com/wY8Y8Y8.png" width="49%" alt="Cost Dashboard"/>
-<img src="https://i.imgur.com/wY8Y8Y9.png" width="49%" alt="Settings Panel"/>
-
-*Left: Real-time cost dashboard. Right: One-click configuration.*
-
-</div>
-
----
-
 ## 📥 Download & Installation
 
 <div align="center">
